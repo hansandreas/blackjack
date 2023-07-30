@@ -1,13 +1,10 @@
 console.log("test")
 
 
-'function 
-
-
 
 class card {
     value: 
-    type:
+    sort
     img:
 }
 
@@ -35,8 +32,12 @@ class deck inherits card {
     return deck    
 }
 
-function dealCards
+addEventListener('#del-kort",'mousedown',dealCards)
 
+
+function dealCards{
+    
+}
 
 
 function dealCard {
