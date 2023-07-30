@@ -35,11 +35,8 @@ class Deck {
         this.deck = createDeck()
     }
 
-    
-
     createDeck() {
-        const deck = new Deck()
-        //const deck = []
+        const deck = []
         const ranks = ['2', '3', '4', '5', '6', '7', '8', '9,', '10', 'Jack', 'Queen', 'King', 'Ace']
         const suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
 
@@ -57,6 +54,6 @@ class Deck {
     }
 
 }
-
-console.log(Deck.getDeck())
+const deck = new Deck()
+console.log(deck.getDeck())
 
